@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3 class="text-center">Edit Vehicule</h3>
+        <h3 class="text-center">Modification de véhicule</h3>
         <div class="row">
             <div class="col-md-6">
                 <form @submit.prevent="updateVehicule">
@@ -14,39 +14,39 @@
                         <input type="text" class="form-control" v-model="vehicule.vehicule_prix">
                     </div>
                      <div class="form-group">
-                        <label>dateFab</label>
+                        <label>Date de fabrication</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_dateFab">
                     </div> 
                     <div class="form-group">
-                        <label>hauteur</label>
+                        <label>Hauteur</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_hauteur">
                     </div> <div class="form-group">
-                        <label>largeur</label>
+                        <label>Largeur</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_largeur">
                     </div> 
                     <div class="form-group">
-                        <label>poids</label>
+                        <label>Poids</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_poids">
                     </div> 
                     <div class="form-group">
-                        <label>puissance</label>
+                        <label>Puissance</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_puissance">
                     </div> 
                    
                     <div class="form-group">
-                        <label>lieux</label>
+                        <label>Lieux</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_lieux">
                     </div> 
                     <div class="form-group">
-                        <label>status</label>
+                        <label>Status</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_status">
                     
                     </div> <div class="form-group">
-                        <label>agence</label>
+                        <label>Agence</label>
                         <input type="text" class="form-control" v-model="vehicule.vehicule_agence">
                         </div> 
                     
-                    <button type="submit" class="btn btn-primary">Update Vehicule</button>
+                    <button type="submit" class="btn btn-primary">Modifier le véhicule</button>
                 </form>
             </div>
         </div>

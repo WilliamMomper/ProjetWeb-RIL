@@ -28,9 +28,9 @@
                 <td>{{ agent.agent_password }}</td>
                 <td>
                     <div class="btn-group" role="group">
-                        <router-link :to="{name: 'editAgent', params: { id: agent.id }}" class="btn btn-primary">Edit
+                        <router-link :to="{name: 'editAgent', params: { id: agent.id }}" class="btn btn-primary">Modifier
                         </router-link>
-                        <button class="btn btn-danger" @click="deleteAgent(agent.id)">Delete</button>
+                        <button class="btn btn-danger" @click="deleteAgent(agent.id)">Supprimer</button>
                     </div>
                 </td>
             </tr>

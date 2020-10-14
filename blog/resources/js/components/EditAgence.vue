@@ -1,29 +1,29 @@
 <template>
     <div>
-        <h3 class="text-center">Edit Agence</h3>
+        <h3 class="text-center">Modification de l'agence</h3>
         <div class="row">
             <div class="col-md-6">
                 <form @submit.prevent="updateAgence">
                     <div class="form-group">
-                        <label>nom</label>
+                        <label>Nom</label>
                         <input type="text" class="form-control" v-model="agence.agence_nom">
                     </div>
                     <div class="form-group">
-                        <label>adresse</label>
+                        <label>Adresse</label>
                         <input type="text" class="form-control" v-model="agence.agence_adresse">
                     </div>
                      <div class="form-group">
-                        <label>telephone</label>
+                        <label>Telephone</label>
                         <input type="text" class="form-control" v-model="agence.agence_telephone">
                     </div> 
                     <div class="form-group">
-                        <label>fax</label>
+                        <label>Fax</label>
                         <input type="text" class="form-control" v-model="agence.agence_fax">
                     </div> <div class="form-group">
-                        <label>photo</label>
+                        <label>Photo</label>
                         <input type="text" class="form-control" v-model="agence.agence_photo">
                     </div> 
-                    <button type="submit" class="btn btn-primary">Update Agence</button>
+                    <button type="submit" class="btn btn-primary">Modfier l'agence</button>
                 </form>
             </div>
         </div>
