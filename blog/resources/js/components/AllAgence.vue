@@ -24,9 +24,9 @@
                 <td>{{ agence.agence_photo }}</td>
                 <td>
                     <div class="btn-group" role="group">
-                        <router-link :to="{name: 'editAgence', params: { id: agence.id }}" class="btn btn-primary">Edit
+                        <router-link :to="{name: 'editAgence', params: { id: agence.id }}" class="btn btn-primary">Modifier
                         </router-link>
-                        <button class="btn btn-danger" @click="deleteAgence(agence.id)">Delete</button>
+                        <button class="btn btn-danger" @click="deleteAgence(agence.id)">Supprimer</button>
                     </div>
                 </td>
             </tr>

@@ -13,12 +13,19 @@ import EditVehicule from './components/EditVehicule.vue';
 import EditAgence from './components/EditAgence.vue';
 import EditAgent from './components/EditAgent.vue';
 
+import login from './components/login.vue';
+
 export const routes = [
    
     {
         name: 'home',
         path: '/',
         component: AllVehicules
+    },
+    {
+        name: 'login',
+        path: '/',
+        component: login
     },
      {
         name: 'HomeAgence',

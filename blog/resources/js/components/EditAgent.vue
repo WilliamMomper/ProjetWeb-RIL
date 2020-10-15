@@ -1,43 +1,43 @@
 <template>
     <div>
-        <h3 class="text-center">Edit Agent</h3>
+        <h3 class="text-center">Modification agent</h3>
         <div class="row">
             <div class="col-md-6">
                 <form @submit.prevent="updateAgent">
                     <div class="form-group">
-                        <label>nom</label>
+                        <label>Nom</label>
                         <input type="text" class="form-control" v-model="agent.agent_nom">
                     </div>
 
                     <div class="form-group">
-                        <label>prenom</label>
+                        <label>Prenom</label>
                         <input type="text" class="form-control" v-model="agent.agent_prenom">
                     </div>
 
                      <div class="form-group">
-                        <label>telephone</label>
+                        <label>Telephone</label>
                         <input type="text" class="form-control" v-model="agent.agent_telephone">
                     </div> 
 
                     <div class="form-group">
-                        <label>fax</label>
+                        <label>Fax</label>
                         <input type="text" class="form-control" v-model="agent.agent_fax">
                     </div> 
                     <div class="form-group">
-                        <label>mobile</label>
+                        <label>Mobile</label>
                         <input type="text" class="form-control" v-model="agent.agent_mobile">
                     </div>
 
                     <div class="form-group">
-                        <label>user</label>
+                        <label>User</label>
                         <input type="text" class="form-control" v-model="agent.agent_user">
                     </div> 
                     
                     <div class="form-group">
-                        <label>password</label>
-                        <input type="text" class="form-control" v-model="agent.agent_password">
+                        <label>Password</label>
+                        <input type="password" class="form-control" v-model="agent.agent_password">
                     </div> 
-                    <button type="submit" class="btn btn-primary">Update Agent</button>
+                    <button type="submit" class="btn btn-primary">Modifier l'agent</button>
                 </form>
             </div>
         </div>
